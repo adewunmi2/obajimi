@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*body {
+      background-color: blue;
+      background-image: linear-gradient(to right, blue, light blue);
+  }*/
+
+  .container {
+     max-width: 950px;
+     margin: 0 auto;
+     background-color: #5aa8d2;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .centered-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    border-radius: 8px;
+    padding: 10px 45px;
+    width: 150px;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+      float: right;
+      margin-top: 20px;
+      
+  }
+
+  img {
+    border-radius: 100%;
+    margin-right: 5px;
+  }
+
+  a:link {
+    text-decoration: none;
+    text-align: left;
+    margin-left: 5px;
+    
+  }
+
+  nav {
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+  }
+
+  section article {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .centered-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .centered-middle a:link {
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    background-color: wheat;
+    color: black;
+    border: 2px solid white;
+    
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  aside {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  
+
+  /*aside {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: right;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+  }*/
+
+input[type=text] {
+    width: 200px;
+    margin-top: 20px;
+}
+.username{
+    margin-right: 40px;
+}
+.pass{
+    margin-left: 35px;
+}
+
+aside nav {
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  aside nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+ aside nav ul li a {
+    float: none;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0;
+  }
+
+
+  
